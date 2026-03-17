@@ -1,1 +1,0 @@
-# zghaib-paints
