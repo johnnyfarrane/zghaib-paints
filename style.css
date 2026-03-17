@@ -1,8 +1,7 @@
 :root {
-    /* Define a premium color palette for Zghaib Paints */
-    --primary-color: #1e5f74; /* Deep rich teal */
+    --primary-color: #1e5f74; 
     --primary-dark: #133c4a;
-    --accent-color: #d19a3b; /* Premium gold/mustard */
+    --accent-color: #d19a3b; 
     --accent-hover: #b8862f;
     --text-main: #333333;
     --text-light: #666666;
@@ -271,13 +270,12 @@ ul {
     transform: translateX(10px);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     min-height: 600px;
     position: relative;
     background-color: var(--primary-dark);
-    background-image: url('1.jpeg');
+    background-image: url('photos/1.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -320,7 +318,7 @@ ul {
     opacity: 0.9;
 }
 
-/* Decorative Blobs */
+
 .blob {
     position: absolute;
     border-radius: 50%;
@@ -341,7 +339,7 @@ ul {
 .blob-2 {
     width: 300px;
     height: 300px;
-    background-color: #3b82f6; /* Contrasting blue */
+    background-color: #3b82f6; 
     bottom: -50px;
     left: -50px;
     animation: float 10s ease-in-out infinite alternate-reverse;
@@ -461,7 +459,7 @@ ul {
     letter-spacing: 1px;
 }
 
-/* Call to Action Section */
+
 .cta-section {
     padding: 80px 0;
     background-color: var(--primary-color);
@@ -582,7 +580,7 @@ ul {
     font-size: 0.9rem;
 }
 
-/* Animations - Initial State */
+
 .fade-in-up {
     opacity: 0;
     transform: translateY(30px);
@@ -594,7 +592,7 @@ ul {
     transform: translateY(0);
 }
 
-/* Responsive Design */
+
 @media (max-width: 900px) {
     .nav-links {
         display: none;
